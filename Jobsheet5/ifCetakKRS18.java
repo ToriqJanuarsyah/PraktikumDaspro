@@ -1,5 +1,3 @@
-package Jobsheet5;
-
 import java.util.Scanner;
 
 public class ifCetakKRS18 {
@@ -12,11 +10,17 @@ public class ifCetakKRS18 {
 
         if (uktLunas) {
             System.out.println("Pembayaran UKT terverifikasi");
-            System.out.println("Silakan cetak KRs dan minta tanda tangan DPA");
+            System.out.println("Silakan cetak KRS dan minta tanda tangan DPA");
             
         }
         else {
             System.out.println("Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu");
         }
+    System.out.println("\n--- Cetak KRS SIAKAD ---");
+    String hasil = uktLunas
+    ? "Pembayaran UKT terverifikasi\nSilahkan cetak KRS dan minta tanda tangan DPA"
+    : "Registrasi ditolak. Silahkan lunasi UKT terlebih dahulu";
+    System.out.println(hasil);
+        
     }
 }
