@@ -5,7 +5,6 @@ public class PengunjungCafe18 {
         System.out.println("- " + nama);
         }
     }
-
     public static void main(String[] args) {
         daftarPengunjung();
     }
